@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the Winter CMS project. We apprec
 
 - [Reporting a Security Vulnerability](#reporting-a-security-vulnerability)
 - [Reporting an issue with Winter CMS](#reporting-an-issue-with-wintercms)
-  - [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin)
+  - [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-a-wintercms-plugin)
 - [Making a Feature Request](#making-a-feature-request)
 - [Making a Pull Request](#making-a-pull-request)
 - [Testing Pull Requests](#testing-a-pull-request)
@@ -15,7 +15,7 @@ Please review [our security policy](https://github.com/wintercms/.github/securit
 
 ## Reporting an issue with Winter CMS
 
->**NOTE:** If your issue is related to a Winter CMS plugin, please see the [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin) section below.
+>**NOTE:** If your issue is related to a Winter CMS plugin, please see the [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-a-wintercms-plugin) section below.
 
 We work hard to process bugs that are reported, to assist with this please ensure the following details are always included:
 
