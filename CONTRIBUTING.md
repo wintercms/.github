@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the Winter CMS project. We apprec
 
 - [Reporting a Security Vulnerability](#reporting-a-security-vulnerability)
 - [Reporting an issue with Winter CMS](#reporting-an-issue-with-wintercms)
-  - [Reporting an issue with an Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin)
+  - [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin)
 - [Making a Feature Request](#making-a-feature-request)
 - [Making a Pull Request](#making-a-pull-request)
 - [Testing Pull Requests](#testing-a-pull-request)
@@ -15,7 +15,7 @@ Please review [our security policy](https://github.com/wintercms/.github/securit
 
 ## Reporting an issue with Winter CMS
 
->**NOTE:** If your issue is related to an Winter CMS plugin, please see the [Reporting an issue with an Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin) section below.
+>**NOTE:** If your issue is related to a Winter CMS plugin, please see the [Reporting an issue with a Winter CMS plugin](#reporting-an-issue-with-an-wintercms-plugin) section below.
 
 We work hard to process bugs that are reported, to assist with this please ensure the following details are always included:
 
@@ -47,7 +47,7 @@ If possible, please provide any screenshots or GIFs of the issue occurring to pr
 
 If you find out your bug is actually a duplicate of another bug and only notice that after you created it, please also close your bug with a short reference to the other issue that was there before.
 
-#### Reporting an issue with an Winter CMS plugin
+#### Reporting an issue with a Winter CMS plugin
 
 >Please don't use the main GitHub for reporting issues with plugins.
 
@@ -111,7 +111,7 @@ This will merge all the latest changes from the Winter CMS `develop` branch into
 
 #### Resolving merge conflicts
 
-Occassionally, you may encounter a merge conflict with your Pull Request. This most commonly occurs if another change made to the Winter CMS repository was made to a file that your Pull Request has also changed.
+Occasionally, you may encounter a merge conflict with your Pull Request. This most commonly occurs if another change made to the Winter CMS repository was made to a file that your Pull Request has also changed.
 
 It is the responsibility of the author of the Pull Request to resolve any merge conflicts before their Pull Request is accepted.
 
