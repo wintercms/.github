@@ -8,4 +8,4 @@ Winter is evergreen, no one version is singled out for security fixes because th
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within Winter CMS, please send an email to Luke Towers at wintercms@luketowers.ca. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Winter CMS or any of the Winter.* plugins, please send an email to Luke Towers at wintercms@luketowers.ca. All security vulnerabilities will be promptly addressed.
