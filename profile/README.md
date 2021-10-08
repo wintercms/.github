@@ -1,0 +1,2 @@
+- Want to keep up with the latest announcements? [Follow us on Twitter](https://twitter.com/usewintercms)
+- Want to chat with the team? [Join us on Discord](https://discord.gg/D5MFSPH6Ux)
