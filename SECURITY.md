@@ -8,8 +8,6 @@ Winter is evergreen, no one version is singled out for security fixes because th
 
 ## Reporting a Vulnerability
 
->**NOTE:** Before reporting a vulnerability, please verify that you have followed the published guidelines for configuring the Winter CMS project and that the vulnerability is still repeatable with the recommended configuration applied. Vulnerabilities reported about information leakage when debug mode is enabled are usually not helpful and are generally a waste of time for both the maintainer team and the security researchers involved.
-
 If you discover a security vulnerability within Winter CMS, the Snowboard.js framework, or for any of the first-party Winter plugins and themes (under the `Winter` namespace), please [submit a new Security Advisory through Github](https://github.com/wintercms/winter/security/advisories/new). All security vulnerabilities will be promptly addressed. We will review the security vulnerability and will publish an advisory if we determine that the vulnerability exists and can be exploited, and have made available the steps to mitigate the vulnerability. 
 
 Please note that Github is the CVE Numbering Authority (CNA) of choice for the Winter CMS project and all related projects. In accordance with [CNA Rules 4.3.2](https://www.cve.org/ResourcesSupport/AllResources/CNARules#section_4-3_Notification) any alternative CNA is required to notify us through this method before they are permitted to publish a CVE.
@@ -18,7 +16,10 @@ If a CVE is published by an alternative CNA without consulting with the Winter C
 
 ### Ineligble Reports
 
-- Anything related to Remote Code Execution (RCE), Server Side Template Injection (SSTI), etc as it relates to the built-in ability to write PHP code as a part of CMS Pages, Layouts, & Partials will not be accepted as a vulnerability report as it is a documented feature restricted to authenticated & authorized backend users. Please refer to the [documentation for the functionality](https://wintercms.com/docs/v1.2/docs/cms/themes#php-code-section) as well as the documentation of the [safe mode configuration option](https://wintercms.com/docs/v1.2/docs/setup/configuration#safe-mode). If you disagree with this or wish to discuss it further, please contact the team before submitting a report.
+We will not accept, or will officially dispute, any reported or published vulnerabilities listed below unless first discussed with the maintainers prior to submitting your report.
+
+- Anything related to Remote Code Execution (RCE), Server Side Template Injection (SSTI), or similar method of attack with relation to the **CMS** section (Pages, Layouts & Partials) of the Backend which involves the built-in ability to write PHP code or Twig template logic within these templates. This is a fully supported and documented feature of the CMS, intended to be restricted to properly authenticated & authorized backend users. Please refer to the [documentation for the functionality](https://wintercms.com/docs/v1.2/docs/cms/themes#php-code-section) as well as the documentation of the [safe mode configuration option](https://wintercms.com/docs/v1.2/docs/setup/configuration#safe-mode).
+- Vulnerabilities involving credential or system variable leakage that are only possible with [debug mode](https://wintercms.com/docs/v1.2/docs/setup/configuration#debug-mode) enabled. We will only accept vulnerabilities of this nature if it can be demonstrated with the recommended configuration applied. You may confirm that you are using the recommended configuration by reviewing the **System Status** widget on the Backend dashboard - this widget will warn you if any configuration settings are using unsafe values.
 
 ## Disclosing Vulnerabilities
 
