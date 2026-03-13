@@ -30,6 +30,8 @@ We will not accept, or will officially dispute, any reported or published vulner
   - `cms.manage_themes`
   - `backend.manage_users`
   - `backend.impersonate_users`
+  - `backend.manage_branding`
+  - `backend.manage_plugins`
 
 ## Disclosing Vulnerabilities
 
