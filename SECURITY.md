@@ -21,6 +21,16 @@ We will not accept, or will officially dispute, any reported or published vulner
 - Anything related to Remote Code Execution (RCE), Server Side Template Injection (SSTI), or similar method of attack with relation to the **CMS** section (Pages, Layouts & Partials) of the Backend which involves the built-in ability to write PHP code or Twig template logic within these templates. This is a fully supported and documented feature of the CMS, intended to be restricted to properly authenticated & authorized backend users. Please refer to the [documentation for the functionality](https://wintercms.com/docs/v1.2/docs/cms/themes#php-code-section) as well as the documentation of the [safe mode configuration option](https://wintercms.com/docs/v1.2/docs/setup/configuration#safe-mode).
 - Vulnerabilities involving credential or system variable leakage that are only possible with [debug mode](https://wintercms.com/docs/v1.2/docs/setup/configuration#debug-mode) enabled. We will only accept vulnerabilities of this nature if it can be demonstrated with the recommended configuration applied. You may confirm that you are using the recommended configuration by reviewing the **System Status** widget on the Backend dashboard - this widget will warn you if any configuration settings are using unsafe values.
 
+### Scoring Assistance
+
+- For the **Privileges Required** score, we consider the following CMS permissions to be "administrative" permissions that are intended to only be assigned to elevated, trustworthy users. If your advisory requires that someone be granted one or more of these permissions, we recommend that the **High** value be used for this metric, unless justification can be made for another value to be used:
+  - `cms.manage_pages`
+  - `cms.manage_layouts`
+  - `cms.manage_partials`
+  - `cms.manage_themes`
+  - `backend.manage_users`
+  - `backend.impersonate_users`
+
 ## Disclosing Vulnerabilities
 
 The Winter maintainer team is committed to ethical and responsible disclosure of security vulnerabilities if they are discovered. We will publish all advisories of all severity levels on our [Security Advisories list](https://github.com/wintercms/winter/security/advisories?state=published) as well as on the package repositories of the project in question (ie. Composer, NPM, etc.). Depending on the severity of the vulnerability, we may also publish the vulnerability on our website and social media accounts. Once this has occurred, the discoverer of the vulnerability may publish it on their own platform. Please discuss this with maintainer team first.
