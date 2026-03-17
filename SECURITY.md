@@ -24,9 +24,11 @@ We will not accept, or will officially dispute, any reported or published vulner
 ### Scoring Assistance
 
 - For the **Privileges Required** score, we consider the following CMS permissions to be "administrative" permissions that are intended to only be assigned to elevated, trustworthy users. If your advisory requires that someone be granted one or more of these permissions, we recommend that the **High** value be used for this metric, unless justification can be made for another value to be used:
+  - `cms.manage_assets` 
   - `cms.manage_pages`
   - `cms.manage_layouts`
   - `cms.manage_partials`
+  - `cms.manage_content`
   - `cms.manage_themes`
   - `backend.manage_users`
   - `backend.impersonate_users`
